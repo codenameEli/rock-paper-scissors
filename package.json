@@ -1,15 +1,24 @@
 {
-	"name": "rock-paper-scissors",
-	"version": "0.1.0",
-	"description": "Simply put, play this classic game everytime you open a new tab",
-	"main": "server.js",
-	"scripts": {
-		"test": "echo\"Error: no test specified\" && exit 1",
-		"start": "node server.js"
-	},
-	"dependencies": {
-		"body-parser": "^1.13.3",
-		"express": "^4.13.3",
-		"mongodb": "^2.1.6"
-	}
+  "name": "rock-paper-scissors",
+  "version": "0.1.0",
+  "description": "Simply put, play this classic game everytime you open a new tab",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo\"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.0.0",
+    "jit-grunt": "^0.10.0",
+    "load-grunt-config": "^0.17.2"
+  }
 }
